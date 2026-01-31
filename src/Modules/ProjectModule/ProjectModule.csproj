@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<!-- Required by Razor SDK -->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<!-- Orchard module + features used in Migrations (2.2.1) -->
+	<ItemGroup>
+		<PackageReference Include="OrchardCore.Module.Targets" Version="2.2.1" PrivateAssets="all" />
+		<PackageReference Include="OrchardCore.ContentManagement"            Version="2.2.1" />
+		<PackageReference Include="OrchardCore.ContentTypes"                 Version="2.2.1" />
+		<PackageReference Include="OrchardCore.ContentTypes.Abstractions"    Version="2.2.1" />
+		<PackageReference Include="OrchardCore.ContentFields"                Version="2.2.1" />
+		<PackageReference Include="OrchardCore.Media"                        Version="2.2.1" />
+		<PackageReference Include="OrchardCore.Title"                        Version="2.2.1" />
+	</ItemGroup>
+
+</Project>
