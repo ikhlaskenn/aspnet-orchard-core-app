@@ -1,0 +1,16 @@
+{
+    "Default": [
+        {
+            "Name": "Default",
+            "State": "Running",
+            "RequestUrlHost": "", // empty = any host (localhost:5001 works)
+            "RequestUrlPrefix": "", // empty = no prefix (root site)
+            "ConnectionString": null, // or SQLite if configured during setup
+            "RecipeName": "Software as a Service"
+        }
+    ]
+ {
+    "VersionId": "4e418t4hdnhpwz5qapzscbakn7",
+    "TenantId": "4e418t4hdnhpwz5qapzscbakn7"
+  }
+}
