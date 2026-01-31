@@ -49,7 +49,18 @@ Design and develop a scalable Orchard Core–based application with custom modul
 - Add screenshots and documentation
 
 ---
+## 📸 Screenshots
 
+### Orchard Admin Dashboard
+![Admin Dashboard](admin-dashboard.jpg)
+
+### Custom Orchard Module Enabled
+![Custom Module Enabled](custom-module-enabled.jpg)
+
+### Custom Orchard Module (Code)
+![Custom Module Code](custom-module-code.jpg)
+
+---
 ## 📌 Notes
 This project is under active development and will be extended progressively.
 
