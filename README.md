@@ -30,6 +30,24 @@ Design and develop a scalable Orchard Core–based application with custom modul
 
 ## 📁 Project Structure
 
+```
+Program.cs              application entry point, Orchard Core startup
+MyOrchardApp.csproj     host project
+appsettings.json        host configuration
+src/Modules/
+  ProjectModule/        custom Orchard Core module
+    Controllers/        module controllers
+    Views/              Razor views
+    Migrations/         content type and index migrations
+Localization/           translation resources shipped with Orchard Core
+wwwroot/                static assets
+NLog.config             logging configuration
+```
+
+`App_Data/` is created at first run and holds the site database, the tenant
+settings and the Data Protection keys. It is intentionally **not** tracked:
+it is per-installation state and contains secrets.
+
 ---
 
 ## ▶️ How to Run
